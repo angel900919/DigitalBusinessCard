@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    background-color: #23252C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    width: 317px;
+    background: #1A1B21;
+
+}
+
+.imgIcon{
+    padding-right:8px ;
+
+}
+
+.buttonClass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.button1{
+    width: 115px;
+    height: 34px;
+    padding: 9px 13px 9px 11px;
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    /* gray/700 */
+    color: #374151;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+.button2{
+    width: 115px;
+    height: 34px;
+    padding: 9px 13px 9px 11px;
+    border-radius: 4px;
+    background-color: #5093E2;
+    border: none;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.navbar{
+    width: 317px;
+    height: 64px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 19.5px 73px 19.5px 73px;
+
+}
+
+.text > p{
+    width: 317px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+    color: #DCDCDC;
+    padding-right:34px;
+    padding-left: 36px;
+
+
+}
+
+.text > h1{
+    width: 317px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    color: #F5F5F5;
+    padding-right:34px;
+    padding-left:36px
+}
+
+
+.h2-info{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.h3-info{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #F3BF99;
+
+}
+
+.h4-info{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+    text-align: center;
+
+    color: #F5F5F5;
+
+
+}
